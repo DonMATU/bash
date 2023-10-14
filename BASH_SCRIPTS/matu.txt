@@ -1,1 +1,21 @@
+#!/bin/bash
 
+# Directorio que contiene los scripts
+SCRIPTS_DIR=~/matu_scripts
+
+# Nombre del script a ejecutar
+SCRIPT_NAME=$1
+
+# Pasar todos los argumentos después del primer argumento
+shift
+
+# Ruta completa al script
+SCRIPT_PATH="$SCRIPTS_DIR/$SCRIPT_NAME.sh"
+
+# Verificar si el script existe y es ejecutable
+if [ -x "$SCRIPT_PATH" ]; then
+    "$SCRIPT_PATH" "$@"
+else
+    echo "El script '$SCRIPT_NAME' no existe o no es ejecutable."
+    exit 1
+fi
