@@ -6,12 +6,12 @@ Matu-Fuzzer es un script de Bash para fuzzing web, diseñado para descubrir dire
 
 1. Descarga el script `matu-script.sh`
    ```bash
-   git clone https://github.com/DonMATU/bash/fuzzer/matu-fuzzer.sh.git
+   wget https://github.com/DonMATU/bash/blob/main/fuzzer/matu-fuzzer.sh
    ```
 
 2. (OPCIONAL) Descarga los diccionarios presentes en el directorio `wordlists`.
    ```bash
-   git clone https://github.com/DonMATU/bash/fuzzer
+   git clone https://github.com/DonMATU/bash/fuzzer.git
    ```
 
 
