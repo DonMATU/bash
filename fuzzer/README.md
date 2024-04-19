@@ -2,14 +2,14 @@
 
 Matu-Fuzzer es un script de Bash para fuzzing web, diseñado para descubrir directorios y ficheros en servidores web.
 
-## Descarga (Tienes 2 opciones)
+## Descarga
 
-1. Descarga el directorio completo.
+1. Descarga el script `matu-script.sh`
    ```bash
-   git clone https://github.com/DonMATU/bash/fuzzer
+   git clone https://github.com/DonMATU/bash/fuzzer/matu-fuzzer.sh.git
    ```
 
-2. Descarga únicamente el archivo `matu-fuzzer.sh`.
+2. (OPCIONAL) Descarga los diccionarios presentes en el directorio `wordlists`.
    ```bash
    git clone https://github.com/DonMATU/bash/fuzzer
    ```
@@ -18,7 +18,7 @@ Matu-Fuzzer es un script de Bash para fuzzing web, diseñado para descubrir dire
 
 ## Instalación y uso
 
-2. Muévelo a `/usr/local/bin` para poder ejecutarlo desde cualquier ubicación en tu sistema:
+1. Muévelo a `/usr/local/bin` para poder ejecutarlo desde cualquier ubicación en tu sistema:
 
    ```bash
    sudo mv matu-fuzzer.sh /usr/local/bin/matu-fuzzer
