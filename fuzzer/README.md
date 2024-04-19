@@ -23,3 +23,9 @@ Matu-Fuzzer es un script de Bash para fuzzing web, diseñado para descubrir dire
    ```bash
    sudo mv matu-fuzzer.sh /usr/local/bin/matu-fuzzer
    ```
+
+2. Por último, dale permisos de ejecución:
+
+   ```bash
+   sudo chmod +x /usr/local/bin/matu-fuzzer
+   ```
